@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SST Faculty Profiles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>School of Science and Technology Faculty Profiles</h1>
+    </header>
+    <main>
+        <section class="faculty-grid">
+            <article class="faculty-card">
+                <h2>Dr. Amina Odhiambo</h2>
+                <p>Title: Senior Lecturer, Computer Science</p>
+                <p>Email: <a href="mailto:amina.odhiambo@usiu.ac.ke">amina.odhiambo@usiu.ac.ke</a></p>
+                <div class="research-interests">
+                    <span class="research-tag">Artificial Intelligence</span>
+                    <span class="research-tag">Digital Health</span>
+                    <span class="research-tag">Human-Computer Interaction</span>
+                </div>
+            </article>
+            <article class="faculty-card">
+                <h2>Prof. James K. Njoroge</h2>
+                <p>Title: Associate Professor, Information Systems</p>
+                <p>Email: <a href="mailto:james.njoroge@usiu.ac.ke">james.njoroge@usiu.ac.ke</a></p>
+                <div class="research-interests">
+                    <span class="research-tag">ICT4D</span>
+                    <span class="research-tag">E-Governance</span>
+                    <span class="research-tag">Data Ethics</span>
+                </div>
+            </article>
+            <article class="faculty-card">
+                <h2>Ms. Wanjiku Kamau</h2>
+                <p>Title: Lecturer, Software Engineering</p>
+                <p>Email: <a href="mailto:wanjiku.kamau@usiu.ac.ke">wanjiku.kamau@usiu.ac.ke</a></p>
+                <div class="research-interests">
+                    <span class="research-tag">Web Development</span>
+                    <span class="research-tag">UX Design</span>
+                    <span class="research-tag">DevOps</span>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
