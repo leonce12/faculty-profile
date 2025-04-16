@@ -1,49 +1,207 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SST Faculty Profiles</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+
+    <title>School of Science & Technology - Faculty</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <header>
-        <h1>School of Science and Technology Faculty Profiles</h1>
+
+    <header class="main-header">
+
+        <div class="header-content">
+
+            <img src="" alt="USIU-Africa School of Science and Technology Logo" class="logo">
+
+            <div class="header-text">
+
+                <h1>School of Science & Technology</h1>
+
+                <p class="subtitle">Meet Our Faculty</p>
+
+            </div>
+
+        </div>
+
     </header>
-    <main>
+
+ 
+
+    <main class="faculty-profiles">
+
         <section class="faculty-grid">
+
             <article class="faculty-card">
-                <h2>Dr. Amina Odhiambo</h2>
-                <p>Title: Senior Lecturer, Computer Science</p>
-                <p>Email: <a href="mailto:amina.odhiambo@usiu.ac.ke">amina.odhiambo@usiu.ac.ke</a></p>
-                <div class="research-interests">
-                    <span class="research-tag">Artificial Intelligence</span>
-                    <span class="research-tag">Digital Health</span>
-                    <span class="research-tag">Human-Computer Interaction</span>
+
+                <div class="card-image">
+
+                    <img src="" alt="Portrait of Dr. Amina Odhiambo">
+
                 </div>
+
+                <div class="card-content">
+
+                    <h2>Dr. Amina Odhiambo</h2>
+
+                    <p class="faculty-title">Senior Lecturer, Computer Science</p>
+
+                    <div class="faculty-contact">
+
+                        <a href="mailto:amina.odhiambo@usiu.ac.ke" class="email-link">
+
+                            <img src="" alt="Email icon" class="email-icon">
+
+                            amina.odhiambo@usiu.ac.ke
+
+                        </a>
+
+                    </div>
+
+                    <div class="research-section">
+
+                        <h3>Research Interests</h3>
+
+                        <ul class="research-tags">
+
+                            <li>Artificial Intelligence</li>
+
+                            <li>Digital Health</li>
+
+                            <li>Human-Computer Interaction</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
             </article>
+
+ 
+
             <article class="faculty-card">
-                <h2>Prof. James K. Njoroge</h2>
-                <p>Title: Associate Professor, Information Systems</p>
-                <p>Email: <a href="mailto:james.njoroge@usiu.ac.ke">james.njoroge@usiu.ac.ke</a></p>
-                <div class="research-interests">
-                    <span class="research-tag">ICT4D</span>
-                    <span class="research-tag">E-Governance</span>
-                    <span class="research-tag">Data Ethics</span>
+
+                <div class="card-image">
+
+                    <img src="" alt="Portrait of Prof. James K. Njoroge">
+
                 </div>
+
+                <div class="card-content">
+
+                    <h2>Prof. James K. Njoroge</h2>
+
+                    <p class="faculty-title">Associate Professor, Information Systems</p>
+
+                    <div class="faculty-contact">
+
+                        <a href="mailto:james.njoroge@usiu.ac.ke" class="email-link">
+
+                            <img src="" alt="Email icon" class="email-icon">
+
+                            james.njoroge@usiu.ac.ke
+
+                        </a>
+
+                    </div>
+
+                    <div class="research-section">
+
+                        <h3>Research Interests</h3>
+
+                        <ul class="research-tags">
+
+                            <li>ICT4D</li>
+
+                            <li>E-Governance</li>
+
+                            <li>Data Ethics</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
             </article>
+
+ 
+
             <article class="faculty-card">
-                <h2>Ms. Wanjiku Kamau</h2>
-                <p>Title: Lecturer, Software Engineering</p>
-                <p>Email: <a href="mailto:wanjiku.kamau@usiu.ac.ke">wanjiku.kamau@usiu.ac.ke</a></p>
-                <div class="research-interests">
-                    <span class="research-tag">Web Development</span>
-                    <span class="research-tag">UX Design</span>
-                    <span class="research-tag">DevOps</span>
+
+                <div class="card-image">
+
+                    <img src="" alt="Portrait of Ms. Wanjiku Kamau">
+
                 </div>
+
+                <div class="card-content">
+
+                    <h2>Ms. Wanjiku Kamau</h2>
+
+                    <p class="faculty-title">Lecturer, Software Engineering</p>
+
+                    <div class="faculty-contact">
+
+                        <a href="mailto:wanjiku.kamau@usiu.ac.ke" class="email-link">
+
+                            <img src="" alt="Email icon" class="email-icon">
+
+                            wanjiku.kamau@usiu.ac.ke
+
+                        </a>
+
+                    </div>
+
+                    <div class="research-section">
+
+                        <h3>Research Interests</h3>
+
+                        <ul class="research-tags">
+
+                            <li>Web Development</li>
+
+                            <li>UX Design</li>
+
+                            <li>DevOps</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
             </article>
+
         </section>
+
     </main>
+
+ 
+
+    <footer class="main-footer">
+
+        <div class="footer-content">
+
+            <img src="" alt="USIU-Africa Logo" class="footer-logo">
+
+            <p class="copyright">&copy; 2023 USIU-Africa School of Science and Technology. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
